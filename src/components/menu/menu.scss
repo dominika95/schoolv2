@@ -2,24 +2,24 @@
     background-color: #fff;
     width: 100%;
     z-index: 3;
+    color: #365794;
 
     ul {
         margin: 0;
         padding: 0;
         list-style: none;
         overflow: hidden;
-        background-color: #fff;
     }
 
     li {
         a {
             display: block;
             padding: 20px 20px;
-            border-right: 1px solid #f4f4f4;
+            border-right: 1px solid #aaaaaf;
             text-decoration: none;
 
             &:hover {
-                background-color: palegoldenrod;
+                color: #ef9100;
             }
         }
     }
@@ -38,16 +38,16 @@
         user-select: none;
 
         .navicon {
-            background: #333;
+            background: #365794;
             display: block;
             height: 2px;
             position: relative;
-            transition: background .2s ease-out;
+            transition: #365794 .2s ease-out;
             width: 18px;
 
             &::after,
             &::before {
-                background: #333;
+                background: #365794;
                 content: '';
                 display: block;
                 height: 100%;
