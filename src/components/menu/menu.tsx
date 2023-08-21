@@ -13,6 +13,8 @@ export function Menu() {
                 <li><Link to={PATH.main}>About</Link></li>
                 <li><Link to={PATH.app}>Careers</Link></li>
                 <li><Link to={PATH.main}>Contact</Link></li>
+                <li><Link to={PATH.main}>Contact</Link></li>
+                <li><Link to={PATH.main}>Contact</Link></li>
             </ul>
         </nav>
     )

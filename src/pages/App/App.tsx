@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.scss'
 
 import { Menu } from '../../components/menu';
+import { Footer } from '../../components/footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Menu />
+      <div>ok</div>
+      <div></div>
+      <Footer />
     </>
   )
 }
