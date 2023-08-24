@@ -19,7 +19,7 @@
             text-decoration: none;
 
             &:hover {
-                color: #ef9100;
+                text-decoration: underline;
             }
         }
     }
@@ -28,6 +28,10 @@
         clear: both;
         max-height: 0;
         transition: max-height .2s ease-out;
+
+        .menu-active {
+          color: #ef9100;
+        }
     }
 
     .menu-icon {

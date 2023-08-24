@@ -1,20 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { PATH } from '../router';
 import './menu.scss';
 
 export function Menu() {
+    const isActiveClass = ({ isActive } : {isActive: boolean}) => (isActive ? 'menu-active' : '')
 
     return (
         <nav className="menu-container">
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
             <ul className="menu">
-                <li><Link to={PATH.app}>Our Work</Link></li>
-                <li><Link to={PATH.main}>About</Link></li>
-                <li><Link to={PATH.app}>Careers</Link></li>
-                <li><Link to={PATH.main}>Contact</Link></li>
-                <li><Link to={PATH.main}>Contact</Link></li>
-                <li><Link to={PATH.main}>Contact</Link></li>
+                <li><NavLink 
+                    to={PATH.main}
+                    className={isActiveClass}>Strona główna</NavLink></li>
+                <li><NavLink to={PATH.niechanowo} className={isActiveClass}>Niechanowo</NavLink></li>
+                <li><NavLink to={PATH.prochnowo} className={isActiveClass}>Próchnowo</NavLink></li>
+                <li><NavLink to={PATH.szamocin} className={isActiveClass}>Szamocin</NavLink></li>
             </ul>
         </nav>
     )
