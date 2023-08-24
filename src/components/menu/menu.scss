@@ -3,6 +3,7 @@
     width: 100%;
     z-index: 3;
     color: #365794;
+    display: flex;
 
     ul {
         margin: 0;
@@ -98,6 +99,10 @@
   /* 48em = 768px */
   
   @media (min-width: 768px) {
+    .menu-container {
+      justify-content: center;
+    }
+
     .menu-container li {
       float: left;
     }
