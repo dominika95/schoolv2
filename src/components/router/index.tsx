@@ -6,7 +6,6 @@ import { MainPage } from '../../pages/main-page';
 import { NiechanowoPage } from '../../pages/niechanowo';
 import { ProchnowoPage } from '../../pages/prochnowo';
 import { SzamocinPage } from '../../pages/szamocin';
-import App from "../../pages/App/App";
 
 export const PATH = {
   main: '/',

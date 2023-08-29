@@ -13,7 +13,7 @@ export function Footer() {
             <Container>
                 <Row xs="12">
                     <Col xs="7">COPYRIGHT <FaRegCopyright/> Edukacja Lubasz s.c.</Col>
-                    <FooterGoTop xs="5" onClick={goToTopOfPage} className='col'>Powrót do góry <AiOutlineArrowUp/></FooterGoTop>
+                    <FooterGoTop onClick={goToTopOfPage} className='col col-xs-5'>Powrót do góry <AiOutlineArrowUp/></FooterGoTop>
                 </Row>
             </Container>
         </FooterComponent>
