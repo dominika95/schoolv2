@@ -9,13 +9,21 @@ export const SchoolName = styled.div`
 
 export const SchoolGoToPage = styled.button`
     background-color: ${BLUE_COLOR};
-    color: ${WHITE_COLOR};
     border-radius: 10px;
     padding: 3px 10px;
+
+    a {
+        text-decoration: none; 
+        color: ${WHITE_COLOR};
+    }
 `
 
 export const SchoolPhoto = styled.img`
     width: 100%;
-    padding: 10px 0;
+    margin: 10px 0;
     border-radius: 10px;
 `
+
+export const Empty = styled.div`
+    height: 70px;
+` 
