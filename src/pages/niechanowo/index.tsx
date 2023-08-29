@@ -19,14 +19,12 @@ export function NiechanowoPage() {
           <Container>
             <RowTitle title='Niepubliczna Szkoła Podstawowa w Niechanowie'/>
             <Container>
-              <Row  className='align-items-center'>
-                <Col><SchoolPhoto as='img' src={ schoolPhoto }/></Col>
-                <Col> 
+              <Row  className='justify-content-center align-items-center'>
+                <Col xs="6" md="4"><SchoolPhoto as='img' src={ schoolPhoto }/></Col>
+                <Col xs="6" md="4"> 
                   <Row>
-                    <Col></Col>
                     <Col><a href=""><SchoolRegister as='img' src={ schoolRegister }/></a></Col>
                     <Col><a href="https://www.facebook.com/profile.php?id=100067959128789"><SchoolRegister as='img' src={ schoolFb }/></a></Col>
-                    <Col></Col>
                   </Row>
                 </Col>
               </Row>
